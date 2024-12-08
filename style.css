@@ -1,15 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #2b2b2b; /* Fallback background color */
+    background-color: #2b2b2b; 
     background-image: url("assets/pizza_background.jpg");
-    background-size: cover; /* Covers the entire background with the image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-position: center; /* Centers the image */
-    background-attachment: fixed; /* Keeps the background fixed, even when scrolling */
-    color: #f5f5f5; /* Light text color for contrast */
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed; 
+    color: #f5f5f5; 
     margin: 0;
     padding: 0;
-    min-height: 100vh; /* Ensures the background covers the entire viewport height */
+    min-height: 100vh; 
 }
 
 /* Header Styles */
@@ -20,7 +20,7 @@ header {
 
 header h1 {
     margin: 0;
-    color: #f5f5f5; /* Light font color for the title */
+    color: #f5f5f5; 
 }
 
 nav ul {
@@ -38,13 +38,13 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #f5f5f5; /* Light text color for accessibility */
+    color: #f5f5f5; 
     font-weight: bold;
     padding: 10px 15px;
 }
 
 nav ul li a:hover {
-    background-color: #555; /* Darker background on hover for contrast */
+    background-color: #555; 
     border-radius: 5px;
 }
 
@@ -55,7 +55,7 @@ main {
 
 .intro {
     text-align: center;
-    color: #f5f5f5; /* Light color for text over background image */
+    color: #f5f5f5; 
 }
 
 .intro img {
@@ -67,25 +67,25 @@ main {
 /* Menu List */
 .pizza-list {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center the items */
+    flex-direction: column; 
+    align-items: center; 
     justify-content: flex-start;
-    margin: 0 auto; /* Center the list in the container */
+    margin: 0 auto; 
     background-color:#201e1e87;
 }
 .menu-item {
     display: flex;
-    justify-content:space-between; /* Align items on either side */
+    justify-content:space-between; 
     align-items: center;
-    width: 100%; /* Allow items to take full width */
+    width: 100%; 
     max-width: 600px;
-    margin: 10px 0; /* Spacing between menu items */
+    margin: 10px 0; 
 }
 
 .menu-item p {
-    font-size: 0.9em; /* Smaller text for the description */
-    color: white; /* A lighter color for the description */
-    margin: 0; /* Remove default margins */
+    font-size: 0.9em; 
+    color: white; 
+    margin: 0; 
 }
 
 /* Footer Styles */
@@ -118,7 +118,7 @@ footer {
 }
 
 .contact-info p a {
-    color: #ffd700; /* Gold color for email links */
+    color: #ffd700; 
     text-decoration: none;
 }
 
@@ -149,7 +149,7 @@ footer {
 }
 
 .form-group input, .form-group textarea {
-    flex: 1 1 calc(33% - 10px); /* Make input fields fit in one line */
+    flex: 1 1 calc(33% - 10px); 
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -158,8 +158,8 @@ footer {
 }
 
 .form-group textarea {
-    flex: 1 1 100%; /* Message box spans the full width */
-    resize: none; /* Prevent resizing of the text box */
+    flex: 1 1 100%; 
+    resize: none; 
 }
 
 button {
@@ -167,7 +167,7 @@ button {
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    background-color: #ff4500; /* Bright orange for the send button */
+    background-color: #ff4500; 
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -197,26 +197,26 @@ button:hover {
 .about-item .text {
     width: 60%;
     padding: 0 20px;
-    order: -1; /* This ensures text appears first */
+    order: -1; 
 }
 
 .about-item img {
     width: 40%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    order: 1; /* This ensures image appears second */
+    order: 1; 
 }
 
 .about-item.reverse {
-    flex-direction: row; /* Removed row-reverse */
+    flex-direction: row; 
 }
 
 .about-item.reverse .text {
-    order: 1; /* Swap order for reversed items */
+    order: 1; 
 }
 
 .about-item.reverse img {
-    order: -1; /* Swap order for reversed items */
+    order: -1; 
 }
 
 .about-item h2 {
